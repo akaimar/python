@@ -1,0 +1,11 @@
+def friend(list):
+    for i in list:
+        if len(i) != 4:
+            #a = list.index(i)
+            list.remove(i)
+    print(list)
+    return list
+
+list = ['Ryan', '123', 'Cool Man']
+
+friend(list)
