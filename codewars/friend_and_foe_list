@@ -1,11 +1,17 @@
+"""
+Make a program that filters a list of strings and returns a list with only your friends name in it.
+
+If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not...
+
+Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
+"""
+
 def friend(list):
+    b = []
     for i in list:
-        if len(i) != 4:
-            #a = list.index(i)
-            list.remove(i)
-    print(list)
-    return list
+        if len(i) == 4:
+            b.append(i)
+    return b
 
-list = ['Ryan', '123', 'Cool Man']
+print(friend(list = ['Ryan', '123', 'Cool Man']))
 
-friend(list)
