@@ -1,5 +1,5 @@
 """
-+ Küsib kasutajalt failinime (arvud.txt)
++ Küsib kasutajalt failinime (maksimaalne_rida_fail.txt)
 + Pärib failist read
 # Summerib read kokku
 # Leiab suurima summaga rea numbri failis (algab 1st)
