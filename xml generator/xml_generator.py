@@ -9,7 +9,7 @@ import csv
 
 reader = csv.reader(open('andmed.csv'), delimiter=';') #avame CSV faili, et lugeda kirjeid
 
-data = ET.Element('addRequest') #root element
+data = ET.Element('importRequest') #root element
 
 for row in reader:
     items = ET.SubElement(data, 'assetInput')
